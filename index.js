@@ -16,7 +16,7 @@ class Formatter {
       for(const word of splitStr.slice(1)) {
         if(!exceptions.find(exception => exception === word)) { titleizedStr.push(this.capitalize(word)) } else { titleizedStr.push(word) };
       };
-  return titleizedStr.join(' ');
-}
+    return titleizedStr.join(' ');
+  };
 
 }
